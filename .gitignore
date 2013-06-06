@@ -1,5 +1,4 @@
 # File types
-.*
 *.kdb
 *.kdb.lock
 
