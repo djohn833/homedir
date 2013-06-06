@@ -3,6 +3,12 @@
 *.kdb.lock
 
 # Files
+.mpd/database
+.mpd/log
+.mpd/pid
+.mpd/state
+
+# Directories
 .ssh/
 Desktop/
 docs/
