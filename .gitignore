@@ -1,5 +1,16 @@
+# File types
+.*
+*.kdb
+*.kdb.lock
+
+# Files
 .ssh/
+Desktop/
+docs/
 music/
+packages/
 pics/
+prog/
+SpiderOak/
 vids/
 work/
