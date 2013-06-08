@@ -8,6 +8,8 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
+export PATH=~/bin:$PATH
+
 export LOCALE=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LESSCHARSET='utf-8'
