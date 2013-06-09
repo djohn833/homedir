@@ -15,6 +15,7 @@ export LANG=en_US.UTF-8
 export LESSCHARSET='utf-8'
 export EDITOR=vim
 
+alias grep='grep --color=auto'
 alias racket='rlwrap racket'
 alias vi='vim'
 
