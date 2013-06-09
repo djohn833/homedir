@@ -8,6 +8,8 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
+export HISTTIMEFORMAT='%F %T '
+
 export PATH=~/bin:$PATH
 
 export LOCALE=en_US.UTF-8
