@@ -17,7 +17,10 @@ export LANG=en_US.UTF-8
 export LESSCHARSET='utf-8'
 export EDITOR=vim
 
+MPC_FORMAT='%position% [[%artist% - ][%disc%.][%track%] %title%]|[%file%]'
+
 alias grep='grep --color=auto'
+alias mpc="mpc -f '$MPC_FORMAT'"
 alias racket='rlwrap racket'
 alias vi='vim'
 
