@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+sudo netctl stop wlp2s0-DVBCO ; sudo netctl start wlp2s0-2WIRE225

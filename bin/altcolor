@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+while read line; do
+    echo -e '\e[0;37m'$line
+    if read line; then
+        echo -e '\e[0;36m'$line
+    fi
+done
+echo -en '\e[0m'
