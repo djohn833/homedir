@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+java -jar ~/pdfbox-app-1.8.3.jar ExtractText "$@"
+
