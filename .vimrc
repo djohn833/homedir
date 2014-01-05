@@ -6,9 +6,15 @@ set softtabstop=4
 set expandtab
 set laststatus=2
 
-highlight LongLine ctermbg=yellow guibg=yellow ctermfg=black guifg=black
-match LongLine /^.\{80,}$/
+set statusline=%t
+set statusline+=%m
+set statusline+=%r
+set statusline+=%=
+set statusline+=line\ %l,
+set statusline+=\ col\ %-8.c
+set statusline+=%-23.(byte\ %o%)
+set statusline+=\ %P
 
 highlight ExtraWhitespace ctermbg=red guibg=red
-2match ExtraWhitespace /\s\+$/
+match ExtraWhitespace /\s\+$/
 
